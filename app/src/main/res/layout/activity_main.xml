@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/iiii"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO THE MODERN ELECTRONIC SELECTION WAYS"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:background="@android:color/holo_blue_dark"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This app introduces to you the best and modern ways to select learners who have qaulified to go to the next levels of educatiun
+from PLE, UCE and UACE to University. School heads no longer need to move out of there offices to UNEB selection centers to recive lists of learneners who had applied to
+ join there schools as the app will provide this at the palm of there hands."
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#070000"
+        android:background="#EBEDF6"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The app will also be used to act as a direct communication channel between parents, teachers and learners."
+        android:textStyle="bold"
+        android:textColor="#070000"
+        android:background="#EBEDF6"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The app will also help in learner assessement, act as a complian regesteration desk and a help center for the learners, parents and school authorities "
+        android:textStyle="bold"
+        android:textColor="#070000"
+        android:background="#EBEDF6"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="15sp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lets get Started"
+        android:onClick="GotoLogin"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+
+</LinearLayout>
+
+</ScrollView>
