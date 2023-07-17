@@ -20,6 +20,9 @@
         android:theme="@style/Theme.E_SELECT"
         tools:targetApi="31">
         <activity
+            android:name=".AssessmentForm"
+            android:exported="false" />
+        <activity
             android:name=".StudentData"
             android:exported="false" />
         <activity
